@@ -10,4 +10,7 @@ function testScope(){
     console.log(c); // ❌ ReferenceError
 }
 
-testScope()
+// testScope()
+
+let a=10
+console.log(a)
