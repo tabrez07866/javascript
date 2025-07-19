@@ -7,7 +7,7 @@
 
 
 
-/*
+
 console.log(a)  //undefined(not error,because of hoisting)
 var a=5
 
@@ -81,7 +81,7 @@ console.log(typeof greet)  //"String"
 console.log(z) // ReferenceError: Cannot access 'z' before initialization
 let z=10
 
- */
+
 
 //Class hoisting(not hoisted)
 
