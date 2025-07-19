@@ -1,0 +1,19 @@
+// Instead of adding event listener to every child,
+//attach it to the parent and use ".target"
+
+<ul id="list">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+
+<script>
+   document.getElementById('list').addEventListener('click',function(e){
+    console.log(e)
+    console.log(e.target)
+    console.log(e.target.tagName)
+    console.log(e.target.textContent)
+    if(e.target.tagName==='LI'){
+      console.log('Clicked',e.target.textContent);
+    }
+   })
+</script>
