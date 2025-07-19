@@ -9,7 +9,6 @@ function outer(){
     }
 }
 
-const counter=outer()
-
+let counter=outer()
 counter()
 counter()
