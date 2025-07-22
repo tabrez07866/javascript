@@ -36,3 +36,28 @@ console.log(deeplyNested.flat(Infinity));
 
 //check array
 console.log(Array.isArray(arr))
+
+let arr3=[1,2,3,4]
+let arr4=[5,6,7]
+
+console.log(...arr3,...arr4)
+
+
+const [a,b,...rest]=[1,2,3,4,5]
+
+console.log(a)
+console.log(b)
+console.log(rest)
+
+let obj={
+    id:1,
+    name:"tabrez",
+}
+
+array=[1,2]
+
+const [x,y]=array
+console.log(x,y)
+
+const {id,name}=obj
+console.log(name,id)

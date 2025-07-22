@@ -18,7 +18,7 @@ A Promise has 3 states:
 
 const orderPizza=new Promise((resolve,reject)=>{
     setTimeout(()=>{
-        isPizzaReady=false
+        isPizzaReady=true
 
         if(isPizzaReady){
             resolve("Pizza is ready!")
