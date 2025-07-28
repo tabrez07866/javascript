@@ -13,7 +13,7 @@ How it works:
 
 const arr=[1,2,3,4]
 
-const doubledArr=arr.map((num)=>num*2)
+const doubledArr=arr.map((num)=> num*2)
 
 console.log(doubledArr)
 

@@ -1,4 +1,4 @@
-//closure is a function that remember its outer
+//closure is a function that remember its outer 
 //variables even after that outer function has returned
 
 function outer(){

@@ -1,6 +1,6 @@
 //Basic
 console.log(5=='5') //true  => checks only value
-console.log(5=='5') //false => checks value as well as datatype
+console.log(5==='5') //false => checks value as well as datatype
 
 
 //Number vs String
@@ -10,6 +10,11 @@ console.log(0==='') //false
 //Boolean vs number
 console.log(1==true) //true(true coerces to 1)
 console.log(1===true) //false
+
+while("hsgdhsg"){
+  console.log("falsey")
+  break;
+}
 
 
 //Null vs undefined

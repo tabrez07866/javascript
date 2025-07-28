@@ -12,9 +12,17 @@ console.log(a)  //undefined(not error,because of hoisting)
 var a=5
 
 foo()
+
 function foo(){
     console.log("Hello")
 }
+
+
+
+var poo=()=>{
+    console.log("hello")
+}
+poo()
   
 
 //Basic hoisting

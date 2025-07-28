@@ -4,6 +4,16 @@
 
 //Method 1: JSON.parse(JSON.stringify()) - The Quick Way
 
+const obj3={
+  name:"tabrez",
+  roll:1,
+  c:{d:1}
+}
+
+
+const a=JSON.parse(JSON.stringify(obj3))
+console.log(a)
+
 const obj={a:1,b:{c:2}}
 
 console.log(JSON.stringify(obj))
@@ -15,6 +25,8 @@ deepClone.b.c=42
 
 console.log(obj.b.c)
 console.log(deepClone.b.c)
+
+
 
 /*
 JSON.stringify() converts the object to a JSON string

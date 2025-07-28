@@ -11,6 +11,17 @@ let counter=outer()
 counter()
 counter()
 
+
+function outerr(greet){
+
+      return function innerr(){
+      console.log();
+      
+      }
+
+
+}
+
 //Promise
 
 //creating promise
